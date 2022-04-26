@@ -1,2 +1,0 @@
-# ispsad
-asher
