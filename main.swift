@@ -113,6 +113,28 @@ func Entertainment() {
     print("Great job! You have finished the game. You ended off with " + String(points) + " points")
 }
 
+func Food() {
+    print("You picked Food questions! Now let's begin")
+    let questions = ["What is the rarest M&M color?", "What is the common name for dried plums?", "Which country consumes the most chocolate per capita?", "What is the name given to Indian food cooked over charcoal in a clay oven?", "What was the first soft drink in space?", "What is the most consumed manufactured drink in the world?", "Which is the only edible food that never goes bad?", "Which country invented ice cream?", "From which country does Gouda cheese originate?"]
+    let answers = ["Brown", "Prunes", "Star Trek", "Switzerland", "Tandoori", "Coca Cola", "Tea", "Honey", "China", "Netherlands"]
+    var count = 0
+    var points = 0
+    for _ in questions {
+        print(questions[count])
+        let input = readLine()
+        if input == answers[count] {
+            print("You are right, you get 1 point!")
+            points += 1
+        }
+        else {
+            print("Sorry, your answer was wrong. The correct answer was " + answers[count] + ".")
+        }
+        print("You currently have " + String(points) + " points")
+        count += 1
+    }
+    print("Great job! You have finished the game. You ended off with " + String(points) + " points")
+}
+
 print("Hello user, would you like to play trivia? First, pick a category! The categories are General, Geography, Animal, Science, Entertainment, and Food so type which one you want!")
 let genre = readLine()
     if genre == "General" {
@@ -129,4 +151,7 @@ else if genre == "Science" {
     }
 else if genre == "Entertainment" {
         Entertainment()
+    }
+else if genre == "Food" {
+        Food()
     }
