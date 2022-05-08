@@ -1,4 +1,4 @@
-mport Foundation
+import Foundation
 
 //general questions
 func General() {
