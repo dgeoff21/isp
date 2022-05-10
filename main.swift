@@ -101,8 +101,8 @@ func Science() {
 
 func Entertainment() {
     print("You picked Entertainment questions! Now let's begin")
-    let questions = ["What was the first toy to be advertised on television?", "What was the first feature-length animated movie ever released? (Hint: It was a Disney Movie)", "What TV series showed the first interracial kiss on American network television?", "What were the four main characters' names in the TV series Golden Girls that ran from 1985-1992?", "Who created Sherlock Holmes?", "What awards has an EGOT winner won?", "Which member of the Beatles married Yoko Ono?", "What are the names of Cinderella’s stepsisters?", "What famous US festival hosted over 350,000 fans in 1969?", "The biggest selling music single of all time is?", "When Walt Disney was a child, which character did he play in his school function?"]
-    let answers = ["Mr Potato Head", "Snow White and the Seven Dwarfs", "Star Trek", "Dorothy, Rose, Blanche, and Sophia", "Arthur Conan Doyle", "Emmy, Grammy, Oscar, and a Tony", "John Lennon", "Anastasia and Drizella", "Woodstock", "Candle in the Wind", "Peter Pan"]
+    let questions = ["What was the first toy to be advertised on television?", "What was the first feature-length animated movie ever released? (Hint: It was a Disney Movie)", "What is the highest grossing film?", "What is the name of Gumball's adopted brother in the TV series The Amazing World of Gumball?", "What production studio made Despicable Me?", "What is the musical play that won the 1960’s Oscar, where the story was based on Shakespeare’s Romeo & Juliet?", "Who is the voice of Marty, the Zebra in Madagascar?", "What is the only international movie that has received the Best Picture Oscar?", "What famous US festival hosted over 350,000 fans in 1969?", "The biggest selling music single of all time is?", "Where was Tupac Shakur born?"]
+    let answers = ["Mr Potato Head", "Snow White and the Seven Dwarfs", "Avatar", "Darwin", "Illumination", "West Side Story", "Chris Rock", "Parasite", "Woodstock", "Candle in the Wind", "East Harlem"]
     var count = 0
     var points = 0
     for _ in questions {
